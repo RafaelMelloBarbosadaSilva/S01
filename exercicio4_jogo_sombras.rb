@@ -58,7 +58,7 @@ loc_m = gets.chomp
 sherlock = Detetive.new("Sherlock", loc_s)
 moriarty = MestreDoCrime.new("Moriarty", loc_m)
 
-cenario = Cenario.new([sherlock, moriarty])
+cenario = Cenario.new([sherlock, moriarty]) 
 
 puts "\n--- Participantes Rastreáveis ---"
 puts sherlock.obter_localizacao("10:00")
